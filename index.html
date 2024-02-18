@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+</head>
+<body>
+    <h2>1. What is database? explain with an example on why should we need a database</h2>
+    <p>Database are used for storing, maintaining and accessing any sort of data. Used to store and manage large amounts of
+        structured and unstructured data.
+        They can be used to support wide range of activities, including data storage, data analysis and data management.
+    </p>
+<h2>2. Write a short note on file based storage system. Explain the major challenges of file based system</h2>
+<p>File based storage system is a traditional approch to storing and managing data, where data is stored in individual
+    files on a computer's file system. each file contains a collection of records with each record representing an entity or object in the sysytem.
+    
+</p>
+<h3>Major challenges</h3>
+<ol>
+    <li>Data redundancy</li>
+    <li>Data Inconsistency</li>
+    <li>Security</li>
+    <li>Data isolation</li>
+</ol>
+<h2>3. What is DBMS? what was the need for DBMS?</h2>
+<p>Database Management system are software systems used to store, retrieve and run queries on data. A DBMS serves
+    as an interface between an end-user and a database, allowing users to create, read, update, abd delete data in the database.
+</p>
+<h3>Need of DBMS</h3>
+<ul>
+    <li>Creation of a database</li>
+    <li>Retrieval of information from the database</li>
+    <li>Updating the database</li>
+    <li>Managing a database</li>
+</ul>
+<h2>4. Explain 5 challenges of file-based storage system which was tackled by DBMS.</h2>
+<h3>1.Data redundancy</h3>
+<p>Redudancy means repetition of same data in different tables. Redudancyleads to eccess data storage and may cause data inconsistency.</p>
+<h3>2.Data inconsistency</h3>
+<p>When same data is managed differntly in different places leads to data inconsistency. Data inconsistencycreates 
+    unrealiable information, because it will be difficult to determine which version of information is correct.
+</p>
+<h3>3.Data isolation</h3>
+<p>In file sysytem because data mapping is not supported, so all the files are created and kept in isolation. This is called data isolation.</p>
+<h3>4.Controlled Data sharing</h3>
+<p>It is very difficult to provide access control of data at different level for different user in a file system.</p>
+<h3>5. Data dependence</h3>
+<p>Data are stored in a specific format or structure in a file. If the structure or format is changed, all the existing application
+    programs accessing that file also need to change.
+</p>
+<h2>5. List out the different types of classification in DBMS and explain them in depth.</h2>
+<h3>Based on Data model</h3>
+<p>The data model defines the physical and logical structure of a database which involves th datatypes, the relationship among the data,constraints applied on 
+    the data and even the basic operations specifying retrieval and updation of data in the database.
+</p>
+<h3>Based on Number of Users</h3>
+<p>The database management systems can also be classifid on the basis of its user. so, a DBMS can either b used by a single user or it can be used by multiple users.</p>
+<h3>Based on Database Distribution</h3>
+<p>Depending on the distribution of the database over numerous sites we can classify the database as:</p>
+<ul>
+    <li>Centralized DBMS</li>
+    <p>In the Centralized DBMS, the entire database is stored in a single computer site.</p>
+    <li>Distributed DBMS</li>
+    <p>In the Distributed DBMS the database and the DBMS software are distributed over many omputer sites.</p>
+</ul>
+<h2>Based on cost of Database</h2>
+<p>The large systems along with the components that can handle distribution of database, replication of database, parallel processing,
+    mobile capability and so on can be sold in the form of licenses.
+</p>
+<h2>Based on flow control</h2>
+<p>Based upon the flow of control from application to DBMS the database management system is broadly classified into two types active database management systemand passive database management system.</p>
+<h2>6. What is the significance of Data modelling and explain the types of Data modelling.</h2>
+<p>Data modeling is the process of creating a visual representation of either a whole information system or parts of it to
+    communicate connections between data points and structures. The goal is to illustrate the types of data used and stored within
+    the system, the relationship among these datatypes, the ways the data can be grouped and organised and its formats and attributes.
+
+</p>
+<h3>Types of Data modeling</h3>
+<ul>
+    <li>Hierarchical data models</li>
+    <li>Relational data models</li>
+    <li>Entity-relationship data models</li>
+    <li>Object-oriented data models</li>
+    <li>Dimensional data models</li>
+</ul>
+<h2>7. Explain 3 schema architecture along with its advantages.</h2>
+<p>The three-schema architecture is a design approch for databases that splits data views into three layers.</p>
+<h3>Three schema architecture components:</h3>
+<ul>
+    <li>External schema(user view)</li>
+    <p>This level represents the way individual users or user groups view the data.</p>
+    <li>Conceptual schema(logcal view)</li>
+    <p>This level represents the logical structure of the whole database as seen by the administrator.</p>
+    <li>Internal schema(physical view)</li>
+    <p>This level defines how and where the data is stored and accessed.</p>
+</ul>
+<h3>Advantages of three schema architecture</h3>
+<ul>
+    <li>Data independence</li>
+    <li>Flexibility</li>
+    <li>Efficient data access</li>
+    <li>Improved security</li>
+</ul>
+</body>
+</html>
